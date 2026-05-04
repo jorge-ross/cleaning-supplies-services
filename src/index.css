@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+:root {
+  --blue-deep: #0a2540;
+  --blue-mid: #1a4a8a;
+  --blue-bright: #2563eb;
+  --aqua: #06b6d4;
+  --aqua-light: #67e8f9;
+  --white: #f8faff;
+  --off-white: #eef2f9;
+  --gray-light: #c8d4e8;
+  --gray-mid: #7a8ba8;
+  --foam: #e0f4fb;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-xl: 48px;
+
+  --shadow-card: 0 4px 24px rgba(10, 37, 64, 0.10);
+  --shadow-float: 0 12px 48px rgba(10, 37, 64, 0.18);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--white);
+  color: var(--blue-deep);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--aqua);
+  color: var(--blue-deep);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--off-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--aqua);
+  border-radius: 3px;
+}
