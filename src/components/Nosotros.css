@@ -155,7 +155,36 @@
 }
 
 @media (max-width: 500px) {
+   .nosotros__inner {
+    padding: 0 20px 60px;
+  }
+ 
+  .nosotros__title {
+    font-size: clamp(28px, 8vw, 36px);
+  }
+ 
+  .nosotros__text {
+    font-size: 14px;
+  }
+ 
+  .nosotros__numbers {
+    gap: 0;
+    justify-content: space-between;
+  }
+ 
+  .nosotros__number strong {
+    font-size: 26px;
+  }
+ 
+  .nosotros__number span {
+    font-size: 11px;
+  }
+ 
   .valores-grid {
     grid-template-columns: 1fr;
+  }
+ 
+  .valor-card {
+    padding: 18px;
   }
 }
